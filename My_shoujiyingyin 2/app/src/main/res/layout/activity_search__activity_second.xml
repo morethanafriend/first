@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#40E0D0"
+    >
+    <EditText
+        android:layout_marginLeft="1dp"
+        android:id="@+id/search_et_search_second"
+        android:layout_height="50dp"
+        android:layout_width="320dp"
+        android:textColor="@color/color"
+        android:hint="请输入你想听的歌曲/MV/歌手的名称"
+        android:textColorHint="@color/color"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:singleLine="true"
+        />
+    <Button
+        android:layout_marginRight="2dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/search_tv_search_second"
+        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:text="搜索"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_marginTop="55dp"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="TFBOY"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_below="@id/search_tv_search_hotsearch"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="The Road"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_toRightOf="@id/search_tv_search_hotsearch3"
+        android:layout_below="@id/search_tv_search_hotsearch"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch5"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Kingdom"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/search_tv_search_hotsearch4"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/search_tv_search_hotsearch"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch6"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="幻城电视原声带"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_below="@id/search_tv_search_hotsearch3"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch7"
+        android:layout_below="@id/search_tv_search_hotsearch3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="青云志原声大碟"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_marginRight="2dp"
+        android:layout_toRightOf="@id/search_tv_search_hotsearch6"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:id="@+id/search_tv_search_hotsearch8"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:text="中国新歌声"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_below="@id/search_tv_search_hotsearch6"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="历史记录"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/color"
+        android:layout_below="@+id/search_tv_search_hotsearch8"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/tv_360yingshi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/button"
+        android:layout_below="@+id/search_tv_search_hotsearch8"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/clean"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="删除"-->
+        <!--android:textSize="12sp"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="@color/color"-->
+        <!--android:layout_below="@+id/search_tv_search_hotsearch8"-->
+        <!--android:layout_alignParentEnd="true"/>-->
+
+</RelativeLayout>
+    <ListView
+        android:id="@+id/Lv_hostory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My_shoujiyingyin</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info">无内容，请检查网络环境或更换搜索内容</string>
+    <string-array name="sleep_time">
+        <item>关闭</item>
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>1.5小时</item>
+        <item>2小时</item>
+        <item>自定义</item>
+    </string-array>
+    <string name="title_activity_shiyanyongfa">shiyanyongfa</string>
+</resources>
